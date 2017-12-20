@@ -1,0 +1,801 @@
+{
+  "globalMetaData": {
+    "premiumPrimaryColour": "#C38419",
+    "premiumSecondaryColour": "#9E6710",
+    "premiumAccessibleColour": "#9E6710",
+    "premiumLabelColourOnNormalBackground": "#C38419",
+    "premiumLabelColourOnSecondaryBackground": "#FFFFFF",
+    "fallbackCards": ["http://www.telegraph.co.uk/content/dam/AppFallbacks/NonPremium/Fallback%201%20Copy.png","http://www.telegraph.co.uk/content/dam/AppFallbacks/NonPremium/Fallback%202%20Copy.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/NonPremium/Fallback%203%20Copy.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/NonPremium/Fallback%204%20Copy.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/NonPremium/Fallback%205%20Copy.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/NonPremium/Fallback%206%20Copy.png"],
+    "premiumFallbackCards": ["http://www.telegraph.co.uk/content/dam/AppFallbacks/Premium/Fallback%20fallback%20Copy%2013.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/Premium/Fallback%20fallback%20Copy%2014.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/Premium/Fallback%20fallback%20Copy%2015.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/Premium/Fallback%20fallback%20Copy%2016.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/Premium/Fallback%20fallback%20Copy%2017.png", "http://www.telegraph.co.uk/content/dam/AppFallbacks/Premium/Fallback%20fallback%20Copy%2018.png"]
+  },
+  "sectionMetaData": [
+                      {
+                      "uid": "top-stories",
+                      "displayName": "Top Stories",
+                      "primaryColour": "#030D53",
+                      "secondaryColour": "#000841",
+                      "accessibleColour": "#0F8B7E",
+                      "showSponsored": false,
+                      "customization": "alwaysEnabled"
+                      },
+                      {
+                      "uid": "news",
+                      "displayName": "News",
+                      "primaryColour": "#D50000",
+                      "secondaryColour": "#EF0000",
+                      "accessibleColour": "#D50000",
+                      "showSponsored": true,
+                      "customization": "enabledByDefault"
+                      },
+                      
+                      {
+                      "uid": "sport",
+                      "displayName": "Sport",
+                      "primaryColour": "#FF5722",
+                      "secondaryColour": "#E64A19",
+                      "accessibleColour": "#D83415",
+                      "showSponsored": true,
+                      "customization": "enabledByDefault"
+                      },
+                      {
+                      "uid": "business",
+                      "displayName": "Business",
+                      "primaryColour": "#092C63",
+                      "secondaryColour": "#203DB7",
+                      "accessibleColour": "#203DB7",
+                      "showSponsored": true,
+                      "customization": "enabledByDefault"
+                      },
+                      {
+                      "uid": "comment",
+                      "displayName": "Comment",
+                      "primaryColour": "#92000C",
+                      "secondaryColour": "#EF0000",
+                      "accessibleColour": "#92000C",
+                      "showSponsored": true,
+                      "customization": "enabledByDefault"
+                      },
+                      {
+                      "uid": "entertainment",
+                      "displayName": "Entertainment",
+                      "primaryColour": "#3B007A",
+                      "secondaryColour": "#751CA7",
+                      "accessibleColour": "#3B007A",
+                      "showSponsored": true,
+                      "customization": "enabledByDefault"
+                      },
+                      {
+                      "uid": "lifestyle",
+                      "displayName": "Lifestyle",
+                      "primaryColour": "#1B9E94",
+                      "secondaryColour": "#17887F",
+                      "accessibleColour": "#137169",
+                      "showSponsored": true,
+                      "customization": "enabledByDefault"
+                      },
+                      {
+                      "uid": "video",
+                      "displayName": "Video",
+                      "primaryColour": "#A28A54",
+                      "secondaryColour": "#887345",
+                      "accessibleColour": "#887345",
+                      "showSponsored": true,
+                      "customization": "enabledByDefault"
+                      },
+                      {
+                      "uid": "football",
+                      "displayName": "Football",
+                      "primaryColour": "#E64A19",
+                      "secondaryColour": "#FF5722",
+                      "accessibleColour": "#D83415",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "rugby-union",
+                      "displayName": "Rugby Union",
+                      "primaryColour": "#D83415",
+                      "secondaryColour": "#FF5722",
+                      "accessibleColour": "#D83415",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "cricket",
+                      "displayName": "Cricket",
+                      "primaryColour": "#BF360C",
+                      "secondaryColour": "#FF5722",
+                      "accessibleColour": "#D83415",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "culture",
+                      "displayName": "Culture",
+                      "primaryColour": "#751CA7",
+                      "secondaryColour": "#3B007A",
+                      "accessibleColour": "#751CA7",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "travel",
+                      "displayName": "Travel",
+                      "primaryColour": "#137169",
+                      "secondaryColour": "#17887F",
+                      "accessibleColour": "#137169",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "politics",
+                      "displayName": "Politics",
+                      "primaryColour": "#EF0000",
+                      "secondaryColour": "#D50000",
+                      "accessibleColour": "#EF0000",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "health",
+                      "displayName": "Health",
+                      "primaryColour": "#2090DC",
+                      "secondaryColour": "#005FA8",
+                      "accessibleColour": "#005FA8",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "money",
+                      "displayName": "Money",
+                      "primaryColour": "#203DB7",
+                      "secondaryColour": "#092C63",
+                      "accessibleColour": "#203DB7",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "style",
+                      "displayName": "Style",
+                      "primaryColour": "#17887F",
+                      "secondaryColour": "#1B9E94",
+                      "accessibleColour": "#137169",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "technology",
+                      "displayName": "Technology",
+                      "primaryColour": "#005FA8",
+                      "secondaryColour": "#2090DC",
+                      "accessibleColour": "#005FA8",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      },
+                      {
+                      "uid": "education",
+                      "displayName": "Education",
+                      "primaryColour": "#B50000",
+                      "secondaryColour": "#EF0000",
+                      "accessibleColour": "#B50000",
+                      "showSponsored": true,
+                      "customization": "disabledByDefault"
+                      }
+                      ],
+  "sections": [
+               {
+               "uid": "top-stories",
+               "primaryColour": "#0C2231",
+               "secondaryColour": "#0C1231",
+               "displayName": "Top Stories",
+               "showSponsored": false,
+               "previews": [
+                            {
+                            "type": "standardArticle",
+                            "headline": "EU referendum: New figures reveal more than £670 million of EU spending was lost to fraud last year",
+                            "url": "http://url/to/article0",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Evil father Ben Butler jailed for life after being found guilty of murdering his daughter",
+                            "url": "http://url/to/article1",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk11111",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Tim Peake: I would return to space in a heartbeat",
+                            "url": "http://url/to/article2",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "What would happen to the EU after a brexit?",
+                            "url": "http://url/to/article3",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Briton accused of trying to kill Donald Trump was a Robot Wars obsessive",
+                            "url": "http://url/to/article4",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Boris Johnson and Michael Gove are preparing to lose brexit and blame Nigel Farage",
+                            "url": "http://url/to/article5",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Runaway horse gallops along busy Malaysian highway",
+                            "url": "http://url/to/article6",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Pensioner bludgeoned his nagging partner to death after row about straightening his duvet",
+                            "url": "http://url/to/article7",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Thousands to gather across three Continents in worldwide vigil to remember the life of Jo Cox",
+                            "url": "http://url/to/article8",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "EU referendum: David Cameron thinks Britain will stay as he makes personal appeal to stay in the EU outside No 10",
+                            "url": "http://url/to/article9",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            }
+                            ]
+               },
+               {
+               "uid": "news",
+               "primaryColour": "#D50000",
+               "secondaryColour": "#0C1231",
+               "displayName": "News",
+               "showSponsored": true,
+               "previews": [
+                            {
+                            "type": "standardArticle",
+                            "headline": "EU referendum: New figures reveal more than £670 million of EU spending was lost to fraud last year",
+                            "url": "http://url/to/article0",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Evil father Ben Butler jailed for life after being found guilty of murdering his daughter",
+                            "url": "http://url/to/article1",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk11111",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Tim Peake: I would return to space in a heartbeat",
+                            "url": "http://url/to/article2",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "What would happen to the EU after a brexit?",
+                            "url": "http://url/to/article3",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Briton accused of trying to kill Donald Trump was a Robot Wars obsessive",
+                            "url": "http://url/to/article4",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Boris Johnson and Michael Gove are preparing to lose brexit and blame Nigel Farage",
+                            "url": "http://url/to/article5",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Runaway horse gallops along busy Malaysian highway",
+                            "url": "http://url/to/article6",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Pensioner bludgeoned his nagging partner to death after row about straightening his duvet",
+                            "url": "http://url/to/article7",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "Thousands to gather across three Continents in worldwide vigil to remember the life of Jo Cox",
+                            "url": "http://url/to/article8",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": true,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            },
+                            {
+                            "type": "standardArticle",
+                            "headline": "EU referendum: David Cameron thinks Britain will stay as he makes personal appeal to stay in the EU outside No 10",
+                            "url": "http://url/to/article9",
+                            "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                            "sponsored": false,
+                            "leadAsset": {
+                            "type": "image",
+                            "renditions": [
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 140,
+                                           "height": 94
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 160,
+                                           "height": 108
+                                           },
+                                           {
+                                           "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                           "width": 320,
+                                           "height": 216
+                                           }
+                                           ]
+                            }
+                            }
+                            ]
+               }
+               ],
+  "sponsoredContent": [
+                       {
+                       "type": "standardArticle",
+                       "headline": "Sponsred Article 1 - Please Buy Chips",
+                       "url": "http://url/to/article9",
+                       "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                       "sponsored": true,
+                       "leadAsset": {
+                       "type": "image",
+                       "renditions": [
+                                      {
+                                      "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                      "width": 140,
+                                      "height": 94
+                                      },
+                                      {
+                                      "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                      "width": 160,
+                                      "height": 108
+                                      },
+                                      {
+                                      "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                      "width": 320,
+                                      "height": 216
+                                      }
+                                      ]
+                       }
+                       },
+                       {
+                       "type": "standardArticle",
+                       "headline": "Sponsred Article 2 - Please Buy Fish",
+                       "url": "http://url/to/article9",
+                       "tmgId": "mnydezlhmjvwo5tem5wg6y3hmftge5lk",
+                       "sponsored": true,
+                       "leadAsset": {
+                       "type": "image",
+                       "renditions": [
+                                      {
+                                      "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-thumbnail_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                      "width": 140,
+                                      "height": 94
+                                      },
+                                      {
+                                      "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-xsmall_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                      "width": 160,
+                                      "height": 108
+                                      },
+                                      {
+                                      "url": "http://www.telegraph.co.uk/content/dam/news/2016/06/09/99486434_Savchenkocoffee-small_trans++nlnCh5zGq6g2dSSL2Ay27J5wQS437pE4t_A9tUFcIIk.jpg",
+                                      "width": 320,
+                                      "height": 216
+                                      }
+                                      ]
+                       }
+                       }
+                       ]
+}

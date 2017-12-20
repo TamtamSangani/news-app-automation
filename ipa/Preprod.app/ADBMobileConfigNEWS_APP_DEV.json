@@ -1,0 +1,39 @@
+{
+  "lastModified": "2017-08-03T08:52:06.728Z",
+  "marketingCloud": {
+    "org": "2C7336C753C676BA0A490D4B@AdobeOrg"
+  },
+  "target": {
+    "clientCode": "",
+    "timeout": 5
+  },
+  "audienceManager": {
+    "server": "",
+    "analyticsForwardingEnabled": true,
+    "timeout": 5
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "f8e142725f19614fc0a454771b7287d1a432749ed4292923be37b7de6f7ebee7"
+  },
+  "analytics": {
+    "rsids": "tmgnewsappdev",
+    "server": "telegraphmediagroup.sc.omtrdc.net",
+    "ssl": true,
+    "offlineEnabled": true,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "GMT",
+    "timezoneOffset": 0,
+    "referrerTimeout": 0,
+    "backdateSessionInfo": false,
+    "poi": []
+  },
+  "messages": [],
+  "remotes": {
+    "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5761112564746d3b9000000a.json",
+    "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5761112464746d7eef000062.json"
+  }
+}

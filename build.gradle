@@ -1,0 +1,42 @@
+//group 'com.clearscore.qa'
+//version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+
+    def CUCUMBER_VERSION = "1.2.5"
+
+    compile(
+            'org.seleniumhq.selenium:selenium-java:2.53.1', //Stable: selenium:selenium-java:3.0.1
+            'io.appium:java-client:5.0.0-BETA1' //Stable: io.appium:java-client:5.0.0-BETA1
+    )
+
+
+    testCompile(
+            'info.cukes:cucumber-junit:' + CUCUMBER_VERSION,
+            'info.cukes:cucumber-java:' + CUCUMBER_VERSION,
+            'junit:junit:4.12'
+    )
+}
+
+test {
+    //  Pass all system properties (Terminal inputs):
+
+    systemProperties System.getProperties()
+
+}
+
+//Debug: add "printProps" to gradle test command to see variables
+task printProps {
+    doLast {
+        println System.getProperties()
+    }
+}
+
+gradle.startParameter.continueOnFailure = true

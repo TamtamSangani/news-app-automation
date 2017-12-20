@@ -1,0 +1,38 @@
+<style>
+
+body {
+  color: $body-color;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+  margin: 0px;
+  padding: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-family: "$p-font-family";
+  font-size: $p-font-sizepx;
+  margin-bottom: 1.4em;
+}
+
+b {
+  font-family: "$b-font-family";
+  font-size: $b-font-sizepx;
+}
+
+i {
+  font-family: "$i-font-family";
+  font-size: $i-font-sizepx;
+}
+
+li {
+  font-family: "$p-font-family";
+  font-size: $p-font-sizepx;
+}
+
+a {
+  color: $body-color;
+  text-decoration: underline;
+}
+
+</style>

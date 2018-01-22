@@ -62,4 +62,10 @@ public class LandingPageSteps extends LandingPageScreen {
     public void i_should_be_taken_to_Menu_page() throws Throwable {
 
     }
+
+    @Given("^I am on the stream view$")
+    public void i_am_on_the_stream_view() throws Throwable {
+        clickSkipButton();
+        swipe(Direction.DOWN);
+    }
 }

@@ -2,187 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>UIRequiredDeviceCapabilities</key>
-    <array>
-      <string>armv7</string>
-    </array>
-    <key>DTCompiler</key>
-    <string>com.apple.compilers.llvm.clang.1_0</string>
-    <key>CFBundleInfoDictionaryVersion</key>
-    <string>6.0</string>
-    <key>UISupportedInterfaceOrientations~ipad</key>
-    <array>
-      <string>UIInterfaceOrientationPortrait</string>
-      <string>UIInterfaceOrientationPortraitUpsideDown</string>
-      <string>UIInterfaceOrientationLandscapeLeft</string>
-      <string>UIInterfaceOrientationLandscapeRight</string>
-    </array>
-    <key>DTPlatformVersion</key>
-    <string>10.3</string>
-    <key>DTSDKName</key>
-    <string>iphoneos10.3</string>
-    <key>CFBundleName</key>
-    <string>Preprod</string>
-    <key>UIViewControllerBasedStatusBarAppearance</key>
-    <true/>
-    <key>CFBundleIcons</key>
-    <dict>
-      <key>CFBundlePrimaryIcon</key>
-      <dict>
-        <key>CFBundleIconFiles</key>
-        <array>
-          <string>AppIcon29x29</string>
-          <string>AppIcon40x40</string>
-          <string>AppIcon60x60</string>
-        </array>
-      </dict>
-    </dict>
-    <key>UIStatusBarStyle</key>
-    <string>UIStatusBarStyleLightContent</string>
-    <key>LSRequiresIPhoneOS</key>
-    <true/>
-    <key>CFBundleDisplayName</key>
-    <string>Preprod</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-      <string>fbapi</string>
-      <string>fb-messenger-api</string>
-      <string>fbauth2</string>
-      <string>fbshareextension</string>
-    </array>
-    <key>UIBackgroundModes</key>
-    <array>
-      <string>remote-notification</string>
-    </array>
-    <key>branch_app_domain</key>
-    <string>u4tn.test-app.link</string>
-    <key>DTSDKBuild</key>
-    <string>14E8301</string>
-    <key>CFBundleShortVersionString</key>
-    <string>8.7.3</string>
-    <key>CFBundleSupportedPlatforms</key>
-    <array>
-      <string>iPhoneOS</string>
-    </array>
-    <key>UISupportedInterfaceOrientations</key>
-    <array>
-      <string>UIInterfaceOrientationPortrait</string>
-    </array>
-    <key>BuildMachineOSBuild</key>
-    <string>16G1036</string>
-    <key>DTPlatformBuild</key>
-    <string>14E8301</string>
-    <key>CFBundlePackageType</key>
-    <string>APPL</string>
-    <key>DTXcodeBuild</key>
-    <string>8E3004b</string>
-    <key>CFBundleDevelopmentRegion</key>
-    <string>en</string>
-    <key>UIAppFonts</key>
-    <array>
-      <string>Austin News Deck-Roman.otf</string>
-      <string>Austin News Deck-Medium.otf</string>
-      <string>Austin News Headline-Bold.otf</string>
-      <string>Austin News Headline-Medium.otf</string>
-      <string>Austin News Headline-Italic.otf</string>
-      <string>Austin News Headline-Roman.otf</string>
-      <string>Austin News Headline-Semibold Italic.otf</string>
-      <string>Austin News Headline-Semibold.otf</string>
-      <string>Austin News Text-Bold.otf</string>
-      <string>Austin News Text-Italic.otf</string>
-      <string>Austin News Text-Roman.otf</string>
-      <string>Austin News Text-Semibold Italic.otf</string>
-      <string>Austin News Text-Semibold.otf</string>
-      <string>Telesans Text-Regular.otf</string>
-      <string>Telesans Text-Bold.otf</string>
-    </array>
-    <key>CFBundleVersion</key>
-    <string>1712151113</string>
-    <key>MinimumOSVersion</key>
-    <string>9.0</string>
-    <key>UIStatusBarHidden</key>
-    <false/>
-    <key>branch_key</key>
-    <dict>
-      <key>test</key>
-      <string>key_test_kithVjT5AVlkmxXbldybDfehqtnFdsFI</string>
-      <key>live</key>
-      <string>key_live_kgFjVjI3BHbfiD2ahbAprdfjDubrjwCx</string>
-    </dict>
-    <key>FirebaseAppDelegateProxyEnabled</key>
-    <false/>
-    <key>UILaunchStoryboardName</key>
-    <string>LaunchScreen</string>
-    <key>UIDeviceFamily</key>
-    <array>
-      <integer>1</integer>
-    </array>
-    <key>Fabric</key>
-    <dict>
-      <key>Kits</key>
-      <array>
-        <dict>
-          <key>KitName</key>
-          <string>Crashlytics</string>
-          <key>KitInfo</key>
-          <dict/>
-        </dict>
-        <dict>
-          <key>KitName</key>
-          <string>Twitter</string>
-          <key>KitInfo</key>
-          <dict>
-            <key>d7k2oyQD8HtX7N2HTmXEMIWZdqR8vM2U5zvrX4JIAGvlSuZDo5</key>
-            <string>Consumer Secret</string>
-            <key>Bst8fcYYIj84bPmbxyrvpqcWr</key>
-            <string>Consumer Key</string>
-          </dict>
-        </dict>
-      </array>
-      <key>APIKey</key>
-      <string>eaf502e9f279a235582ae850099f66a3cac2fd83</string>
-    </dict>
-    <key>FacebookDisplayName</key>
-    <string>The Telegraph</string>
-    <key>CFBundleIdentifier</key>
-    <string>uk.co.telegraph.liveNewsApp.preprod</string>
-    <key>DTXcode</key>
-    <string>0833</string>
-    <key>NSAppTransportSecurity</key>
-    <dict>
-      <key>NSAllowsArbitraryLoads</key>
-      <true/>
-      <key>NSExceptionDomains</key>
-      <dict>
-        <key>public.localytics.s3.amazonaws.com</key>
-        <dict>
-          <key>NSExceptionAllowsInsecureHTTPLoads</key>
-          <true/>
-        </dict>
-      </dict>
-    </dict>
-    <key>CFBundleExecutable</key>
-    <string>Preprod</string>
-    <key>CFBundleIcons~ipad</key>
-    <dict>
-      <key>CFBundlePrimaryIcon</key>
-      <dict>
-        <key>CFBundleIconFiles</key>
-        <array>
-          <string>AppIcon29x29</string>
-          <string>AppIcon40x40</string>
-          <string>AppIcon60x60</string>
-          <string>AppIcon76x76</string>
-          <string>AppIcon83.5x83.5</string>
-        </array>
-      </dict>
-    </dict>
-    <key>UIMainStoryboardFile</key>
-    <string>Main</string>
-    <key>CFBundleSignature</key>
-    <string>????</string>
-    <key>DTPlatformName</key>
-    <string>iphoneos</string>
     <key>CFBundleURLTypes</key>
     <array>
       <dict>
@@ -268,5 +87,174 @@
         </array>
       </dict>
     </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>11.2</string>
+    <key>CFBundleName</key>
+    <string>Preprod</string>
+    <key>DTSDKName</key>
+    <string>iphoneos11.2</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>CFBundleDisplayName</key>
+    <string>Preprod</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>branch_app_domain</key>
+    <string>u4tn.test-app.link</string>
+    <key>DTSDKBuild</key>
+    <string>15C107</string>
+    <key>CFBundleShortVersionString</key>
+    <string>8.7.3</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>16G1114</string>
+    <key>DTPlatformBuild</key>
+    <string>15C107</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>9.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>9C40b</string>
+    <key>CFBundleVersion</key>
+    <string>1712151113</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Austin News Deck-Roman.otf</string>
+      <string>Austin News Deck-Medium.otf</string>
+      <string>Austin News Headline-Bold.otf</string>
+      <string>Austin News Headline-Medium.otf</string>
+      <string>Austin News Headline-Italic.otf</string>
+      <string>Austin News Headline-Roman.otf</string>
+      <string>Austin News Headline-Semibold Italic.otf</string>
+      <string>Austin News Headline-Semibold.otf</string>
+      <string>Austin News Text-Bold.otf</string>
+      <string>Austin News Text-Italic.otf</string>
+      <string>Austin News Text-Roman.otf</string>
+      <string>Austin News Text-Semibold Italic.otf</string>
+      <string>Austin News Text-Semibold.otf</string>
+      <string>Telesans Text-Regular.otf</string>
+      <string>Telesans Text-Bold.otf</string>
+    </array>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>branch_key</key>
+    <dict>
+      <key>test</key>
+      <string>key_test_kithVjT5AVlkmxXbldybDfehqtnFdsFI</string>
+      <key>live</key>
+      <string>key_live_kgFjVjI3BHbfiD2ahbAprdfjDubrjwCx</string>
+    </dict>
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <false/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>Fabric</key>
+    <dict>
+      <key>Kits</key>
+      <array>
+        <dict>
+          <key>KitInfo</key>
+          <dict/>
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict>
+            <key>Bst8fcYYIj84bPmbxyrvpqcWr</key>
+            <string>Consumer Key</string>
+            <key>d7k2oyQD8HtX7N2HTmXEMIWZdqR8vM2U5zvrX4JIAGvlSuZDo5</key>
+            <string>Consumer Secret</string>
+          </dict>
+          <key>KitName</key>
+          <string>Twitter</string>
+        </dict>
+      </array>
+      <key>APIKey</key>
+      <string>eaf502e9f279a235582ae850099f66a3cac2fd83</string>
+    </dict>
+    <key>FacebookDisplayName</key>
+    <string>The Telegraph</string>
+    <key>CFBundleIdentifier</key>
+    <string>uk.co.telegraph.liveNewsApp.preprod</string>
+    <key>DTXcode</key>
+    <string>0920</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>public.localytics.s3.amazonaws.com</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>CFBundleExecutable</key>
+    <string>Preprod</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
   </dict>
 </plist>

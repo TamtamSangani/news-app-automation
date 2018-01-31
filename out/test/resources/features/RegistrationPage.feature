@@ -20,10 +20,7 @@ Feature: New On-Boarding Registration page
     And Verify Privacy Policy link
     Then Verify Register button
 
-
-
   Scenario: Error message is displayed when entering a number as first name
-#    Given user is on Registration page
     When I register with invalid first name
     And I click on Register button on register screen
     Then Something Went wrong error message should be displayed

@@ -31,47 +31,47 @@ public class RegistrationScreen extends SharedDriver {
     private MobileElement registrationPage;
 
     @iOSXCUITFindBy(xpath = "(//XCUIElementTypeImage[@name=\"Onboarding/masthead\"])[2]")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/masthead")
     private MobileElement staticTitle;
 
     @iOSXCUITFindBy(id = "skip")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/btn_close")
     private MobileElement registrationSkip;
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Preprod\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]")
-    @AndroidFindBy(id = "")
+//    @AndroidFindBy(id = "")
     private MobileElement line;
 
     @iOSXCUITFindBy(id = "Create your account for The Telegraph")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/txt_sign_up_message")
     private MobileElement createAccountText;
 
     @iOSXCUITFindBy(id = "firstName")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/input_first_name")
     private MobileElement firstNameInput;
 
     @iOSXCUITFindBy(id = "lastName")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/input_last_name")
     private MobileElement lastNameInput;
 
     @iOSXCUITFindBy(id = "email")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/input_email")
     private MobileElement emailInput;
 
     @iOSXCUITFindBy(id = "password")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/input_password")
     private MobileElement passwordInputField;
 
     @iOSXCUITFindBy(id = "Don’t miss out")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/txt_sign_up_dont_miss_out")
     private MobileElement dontMissOutText;
 
     @iOSXCUITFindBy(id = "Telegraph Media Group Limited and its group companies would like to keep you informed about other offers, promotions and services that might interest you by email. Let us know if you would like to hear from us by ticking the box.")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/txt_sign_up_dont_miss_out_description")
     private MobileElement telegrpagMediaText;
 
     @iOSXCUITFindBy(id = "Yes please!")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/chk_want_spam")
     private MobileElement yesPlease;
 
     @iOSXCUITFindBy(id = "Terms and Conditions")
@@ -83,7 +83,7 @@ public class RegistrationScreen extends SharedDriver {
     private MobileElement privacyPolicy;
 
     @iOSXCUITFindBy(xpath = "(//XCUIElementTypeButton[@name=\"Register\"])[2]")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/txt_sign_up_button")
     private MobileElement registerScreenButton;
 
     @iOSXCUITFindBy(xpath = "ication[@name=\"Preprod\"]/XCUIElementTypeWindow[4]/XCUIElementTypeOther/XCUIElementTypeOther")

@@ -24,7 +24,7 @@ public class LoginScreen extends SharedDriver {
     private MobileElement loginPageDisplayed;
 
     @iOSXCUITFindBy(id = "Close")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/btn_get_started_login")
     private MobileElement loginskipButton;
 
     @iOSXCUITFindBy(id = "masthead")
@@ -48,7 +48,7 @@ public class LoginScreen extends SharedDriver {
     private MobileElement forgottenPassowrd;
 
     @iOSXCUITFindBy(id = "Log in")
-    @AndroidFindBy(id = "")
+    @AndroidFindBy(id = "uk.co.telegraph.android.test:id/btn_get_started_login")
     private  MobileElement loginScreenLoginButton;
 
     @iOSXCUITFindBy(id = "//XCUIElementTypeAlert[@name=\"Log in failed\"]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2")

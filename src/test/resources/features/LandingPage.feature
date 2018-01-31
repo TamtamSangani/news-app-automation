@@ -10,7 +10,8 @@ Feature: Landing Page of On-Boarding
   Scenario: Selecting the 'X' (Skip) Button should take user's to the Menu screen
     Given I see the Landing page
     When I click on X button
-    Then I should be taken to menu page
+    Then I should be taken to Menu page
+
 
   Scenario: The app should not display this screen if the user has 'Skipped' before
     Given I see the Landing page

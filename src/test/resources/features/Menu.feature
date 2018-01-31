@@ -16,8 +16,8 @@ Feature: Menu
     Examples:
      |section_type          |
      |Top Stories           |
-     |News                  |
-     |Politics              |
+#     |News                  |
+#     |Politics              |
 #     |Sport                 |
 #     |Business              |
 #     |Money                 |

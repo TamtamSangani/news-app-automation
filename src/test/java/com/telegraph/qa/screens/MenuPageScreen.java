@@ -7,7 +7,12 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class MenuPageScreen extends SharedDriver {
+
+
+    private String TopStories = "TopStories";
 
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Preprod\"]/XCUIElementTypeWindow[4]/XCUIElementTypeOther/XCUIElementTypeOther")
@@ -38,8 +43,11 @@ public class MenuPageScreen extends SharedDriver {
     @AndroidFindBy(id = "")
     private MobileElement politics;
 
-    public MenuPageScreen () {
-        PageFactory.initElements(new AppiumFieldDecorator(getAppiumDriver()), this);}
+    @iOSXCUITFindBy(tagName = "")
+    @AndroidFindBy(id = "")
+    private List<MobileElement> menuList;
+
+    public MenuPageScreen () { PageFactory.initElements(new AppiumFieldDecorator(getAppiumDriver()), this);}
 
     public MobileElement getNotification() { return notification; }
     public MobileElement getSendMeUpdates() { return sendMeUpdates; }
@@ -63,5 +71,22 @@ public class MenuPageScreen extends SharedDriver {
     public void clickTopStories () {click(topStories);}
     public void clickNews () {click(news);}
     public void clickPolitics () {click(politics);}
+
+    public void menuSelectList (String sectionName){
+
+        for (MobileElement menu_option : menuList) {
+            try {
+                if (menu_option.getText().equals(sectionName)){
+                    menu_option.click();
+                }
+            } catch (Exception e) {
+                System.out.print("Cant find the" + sectionName + "menu on stream view");
+            }
+        }
+    }
+
+    //public void clickSection () {click(menuSelectList(String sectionName);}
+
+
 
 }

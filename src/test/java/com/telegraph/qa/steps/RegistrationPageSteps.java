@@ -23,7 +23,7 @@ public class RegistrationPageSteps extends RegistrationScreen {
     @Then("^I should be taken to Registration page\\.$")
     public void i_should_be_taken_to_Registration_page() throws Throwable {
 
-//        isRegistrationPageDisplayed();
+        isRegistrationPageDisplayed();
     }
 
     @Given("^user is on Registration page$")

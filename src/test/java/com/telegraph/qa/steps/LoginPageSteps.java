@@ -73,6 +73,6 @@ public class LoginPageSteps extends LoginScreen{
     }
     @Given("^I click on Login Button$")
     public void I_click_on_Login_Button() throws Throwable {
-     clickLoginScreenLoginButton();
+        clickLoginScreenLoginButton();
     }
 }

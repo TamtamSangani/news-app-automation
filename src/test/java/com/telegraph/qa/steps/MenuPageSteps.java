@@ -33,13 +33,16 @@ public class MenuPageSteps extends MenuPageScreen {
 
     @When("^I choose the Top Stories section from the menu$")
     public void i_choose_the_Top_Stories_section_from_the_menu() throws Throwable {
-        isTopStoriesDisplayed(); clickTopStories();
+
+         menuSelectList ("");
+
+            //isTopStoriesDisplayed(); clickTopStories();
     }
 
     @Then("^I should be in the Top Stories section$")
     public void i_should_be_in_the_Top_Stories_section() throws Throwable {
 
-        isTopStoriesDisplayed();
+        clickPolitics();
     }
 
     @When("^I choose the News section from the menu$")
@@ -63,7 +66,6 @@ public class MenuPageSteps extends MenuPageScreen {
 
         isPoliticsDisplayed();
     }
-
 
 
 }
